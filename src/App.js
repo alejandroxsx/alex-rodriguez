@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 import HomePageBanner from "./components/HomePageBanner"
 import PortfolioObject from "./components/PortfolioObject"
@@ -9,7 +8,7 @@ import MyHeader from "./components/MyHeader"
 function App() {
   return (
     <div className="App">
-      <HomePageBanner />
+      <MyHeader />
       <PortfolioObject />
       <MyFooter />
     </div>
