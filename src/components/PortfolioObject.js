@@ -3,15 +3,15 @@ import "../scss/PortfolioObject.scss"
 
 function PortfolioObject() {
     return(
-        <div className="mainBody">
-            <section>
-                <div className="column">
-                    <div className="portfolioObject">One</div>
-                    <div className="portfolioObject">Two</div>
+        <div className="">
+            <section className="portfolioContainer">
+                <div className="column column__left">
+                    <div className="portfolioItem">One</div>
+                    <div className="portfolioItem">Two</div>
                 </div>
-                <div className="column">
-                    <div className="portfolioObject">Three</div>
-                    <div className="portfolioObject">Four</div>
+                <div className="column column__right">
+                    <div className="portfolioItem">Three</div>
+                    <div className="portfolioItem">Four</div>
                 </div>
             </section>
         </div>
